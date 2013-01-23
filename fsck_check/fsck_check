@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo -n "Enter partition: "
+read partition
+sudo dumpe2fs -h $partition | grep -i 'mount count'

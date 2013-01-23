@@ -1,0 +1,4 @@
+#!/bin/bash
+
+find . -name "._*" -exec rm -rf {} \;
+find . -name ".DS_*" -exec rm -rf {} \;
