@@ -1,0 +1,5 @@
+#!/bin/bash
+
+bin=/home/exo/Software/tp_charge/tp_charge
+
+sudo $bin bat0 0
